@@ -7,3 +7,11 @@
 </div>
 
 <%= link_to "New post", new_post_path %>
+
+<div data-controller="hello"></div>
+
+<div data-controller="goodbye"></div>
+
+<div data-controller="utilities--md5" data-utilities--md5-link-name-value="Hash this!">
+  <%= link_to "Hash this!", "#", "data-action": "utilities--md5#convert" %>
+</div>

@@ -10,3 +10,6 @@ pin "@hotwired/stimulus-importmap-autoloader", to: "stimulus-importmap-autoloade
 pin_all_from "app/javascript/controllers", under: "controllers"
 pin "trix"
 pin "@rails/actiontext", to: "actiontext.js"
+
+
+pin "md5", to: "https://cdn.skypack.dev/md5"
