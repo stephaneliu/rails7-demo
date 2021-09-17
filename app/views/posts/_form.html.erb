@@ -1,3 +1,7 @@
+<% content_for :head do %>
+  <%= javascript_import_module_tag "rich_text" %>
+<% end %>
+
 <%= form_with(model: post) do |form| %>
   <% if post.errors.any? %>
     <div id="error_explanation">
